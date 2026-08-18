@@ -63,5 +63,6 @@ app.MapControllers();
 
 app.MapAuthEndpoints();
 app.MapAdminEndpoints();
+app.MapBookEndpoints();
 
 app.Run();
